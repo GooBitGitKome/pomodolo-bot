@@ -3,6 +3,7 @@ from discord.ext import commands
 import os
 import asyncio
 
+
 intents = discord.Intents.default()
 intents.all()
 intents.members = True
@@ -14,7 +15,7 @@ interval = 5
 times = 4
 interval_long = 15
 stop_flg = False
-finished_jobs = 0
+finishe_jobs = 0
 tasks = []
 # @bot.command()
 # async def join(ctx):
